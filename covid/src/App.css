@@ -1,0 +1,70 @@
+.card{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card .infocard{
+  background-color: rgb(215, 209, 208);
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+  width: 150px;
+}
+
+.total{
+  color: red;
+  background-color: #ededed;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.death{
+  background-color: rgb(255, 73, 73);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.active{
+  background-color: orange;
+  display: inline-block;
+  margin-left: 4px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.rate{
+  display: inline-block;
+  background-color: rgb(244, 100, 244);
+  margin-left: 4px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.select{
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  outline: none;
+}
+
+.date{
+  color: rgb(77, 77, 77);
+  background-color: #ededed;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
